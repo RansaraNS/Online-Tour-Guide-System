@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@800&display=swap');
+
+.lgbody
+{
+	background-color: #181b22;
+}
+
+.lgform
+{
+	background-color: #009900;
+	width: 450px;
+	height: 500px;
+	border-radius: 25px;
+	margin:50px;
+}
+
+.lgheadimage
+{
+	width: 25%;
+	height: 25%;
+    padding: 0px;
+}
+
+.lgtitle
+{
+	font-family: Kanit;
+	font-size: 20px;
+}
+
+.lgbar
+{
+	width: 350px;
+	height: 15px;
+	font-size: 16px;
+	padding: 10px 15px;
+	border-radius: 10px;
+}
+
+.lgbtn
+{
+	width: 350px;
+	height: 50px;
+	padding: 10px 30px;
+	background-color: #001a00;
+	border-radius: 10px;
+}
+
+.lgbtnlink
+{
+	display: block;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 20px;
+	font-family: Exo 2;
+}

@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@500&display=swap');
+
+.adminpbody
+{
+	background-color: #181b22;
+}
+
+.adminplist
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	background-color: #006600;
+	width: 250px;
+	height: 700px;
+}
+
+.adminplink
+{
+	display: block;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 18px;
+	font-family: Josefin Sans;
+	text-align: center;
+	padding: 10px 15px;
+	border-bottom: 2px solid black;
+}
+
+.logoadminpanel
+{
+    width: 750px;
+    height: 720px;
+    margin-right: 80px;
+    margin-left: 250px;
+}
+
+.adminplink:hover
+{
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.adminpmain
+{
+	margin-right: 5px;
+	width: 1230px;
+	height: 700px;
+	color: #ffffff;
+	background-color: #e6b800;
+	
+}
+
+.adminpdetails
+{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.adminpdetailstitle
+{
+	margin-left: 20px;
+	height: 30px;
+	color: #000000;
+	font-size: 35px;
+	font-family: Kanit;
+
+}
+
+.adminpftitle
+{
+	margin-left: 20px;
+	height: 15px;
+	color: #ffffff;
+	font-size: 28px;
+	font-family: Exo;
+}
+
+.adminpdetailsbar
+{
+	margin-left: 20px;
+	width: 300px;
+	height: 30px;
+	border-radius: 15px;
+	padding: 5px 10px;
+	font-size: 20px;
+}
+
+.adminpregbtn
+{
+	float:right;
+	margin-right: 15px;
+	width: 100px;
+	height: 35px;
+	border-radius: 10px;
+	padding: 5px 10px;
+	color: #ffffff;
+	font-size: 20px;
+	text-decoration: none;
+	background-color: #181b22;
+}
+
+.admintablebtn
+{
+	float:right;
+	margin-right: 15px;
+	width: 200px;
+	height: 35px;
+	border-radius: 10px 0px 10px 0px;
+	padding: 5px 10px;
+	color: #ffffff;
+	font-size: 20px;
+	text-decoration: none;
+	background-color: #181b22;
+}
+
+.adminpbtnlink
+{
+	padding:5px 10px;
+	color: #ffffff;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.adminpTables
+{
+	text-align: center;
+	width: 70%;
+	margin-left: 15px;
+	background-color: #ffffff;
+	color: #000000;
+	font-size: 20px;
+	border: 3px solid black;
+	
+}
+
+.adminpTableshead
+{
+	background-color: #ff0000;
+	color: #ffffff;
+	font-size: 24px;
+}
+
+.adminphrhead
+{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.adminpbtnedtndel
+{
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Josefin Sans;
+	background-color: #ff0000;
+	
+}
+
+.editntn
+{
+	margin-right: 15px;
+	width: 100px;
+	height: 35px;
+	border-radius: 0px 20px 20px 20px;
+	padding: 5px 10px;
+	color: #ffffff;
+	font-size: 20px;
+	text-decoration: none;
+	background-color: #ff0015;
+}

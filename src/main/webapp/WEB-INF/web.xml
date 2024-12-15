@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app id="WebApp_ID" version="2.4"
+	xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+		http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">      
+<servlet>
+	<servlet-name>addAdmin</servlet-name>
+	<servlet-class>servlet.addAdmin</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>addAdmin</servlet-name>
+	<url-pattern>/adad</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+	<servlet-name>logAdmin</servlet-name>
+	<servlet-class>servlet.logAdmin</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>logAdmin</servlet-name>
+	<url-pattern>/lgad</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+	<servlet-name>viewAdmin</servlet-name>
+	<servlet-class>servlet.viewAdmin</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>viewAdmin</servlet-name>
+	<url-pattern>/vwad</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+	<servlet-name>addGuide</servlet-name>
+	<servlet-class>servlet.addGuide</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>addGuide</servlet-name>
+	<url-pattern>/adgd</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+	<servlet-name>viewGuide</servlet-name>
+	<servlet-class>servlet.viewGuide</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>viewGuide</servlet-name>
+	<url-pattern>/vwgd</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+	<servlet-name>editGuide</servlet-name>
+	<servlet-class>servlet.editGuide</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>editGuide</servlet-name>
+	<url-pattern>/edgd</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>updateGuide</servlet-name>
+	<servlet-class>servlet.updateGuide</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>updateGuide</servlet-name>
+	<url-pattern>/upgd</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>deleteGuide</servlet-name>
+	<servlet-class>servlet.deleteGuide</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>deleteGuide</servlet-name>
+	<url-pattern>/delgd</url-pattern>
+</servlet-mapping>
+      
+      
+</web-app>
